@@ -1,12 +1,12 @@
 public class Card {
-
     private String nimi;
+    // igal kaardil on need 5 omadust (ehk stat'i):
     private int attack;
     private int block;
     private int cleanse;
     private int heal;
     private int madness;
-
+// KONSTRUKTOR
     public Card(String nimi, int attack, int block, int cleanse, int heal, int madness) {
         this.nimi = nimi;
         this.attack = attack;
@@ -15,7 +15,7 @@ public class Card {
         this.heal = heal;
         this.madness = madness;
     }
-
+// GETTERID & SETTERID
     public String getNimi() {
         return nimi;
     }
